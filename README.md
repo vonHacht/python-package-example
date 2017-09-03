@@ -1,4 +1,12 @@
-# Python Package
+# A python package example
 
-Trying to structure a python package
-
+#### Installation (via pip)
+```sh
+$ sudo pip install git+https://github.com/vonHacht/python-package-example/
+```
+#### Try-out (via python) 
+```python
+>>> from fish import fish
+>>> fisk = fish.fish()
+>>> fisk.f()
+```
